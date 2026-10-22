@@ -1,0 +1,46 @@
+name: Report a bug
+description: Tell us what went wrong in Git Client Preview.
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not include tokens, passwords, sign-in codes, private repository contents, or unredacted diagnostics. For a sensitive concern, ask for a private contact method without including the details.
+  - type: input
+    id: app-version
+    attributes:
+      label: App version or build
+      description: Find this in About GitClient. Write unknown if unavailable.
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the smallest example that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+      description: Include the visible error if useful, with private details removed.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional screenshots or redacted diagnostics. Review every attachment before posting.

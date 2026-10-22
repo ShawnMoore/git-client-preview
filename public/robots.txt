@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shawnmoore.github.io/git-client-preview/sitemap.xml

@@ -1,0 +1,14 @@
+name: Ask a privacy question
+description: Ask a general question about data handling, or request a private contact method.
+title: '[Privacy] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public issue, not a confidential support form. Do not include personal information, private repository content, credentials, or security vulnerability details. For sensitive requests, simply ask for a private contact method.
+  - type: textarea
+    id: question
+    attributes:
+      label: General question or contact request
+    validations:
+      required: true

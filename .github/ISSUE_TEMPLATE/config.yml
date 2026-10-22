@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support guide
+    url: https://shawnmoore.github.io/git-client-preview/support/
+    about: Troubleshooting guidance and what to include in an issue.
+  - name: Privacy policy
+    url: https://shawnmoore.github.io/git-client-preview/privacy/
+    about: How the app and this website handle information.

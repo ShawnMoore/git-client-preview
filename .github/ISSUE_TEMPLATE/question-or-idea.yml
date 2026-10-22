@@ -1,0 +1,22 @@
+name: Ask a question or suggest an idea
+description: Get help or share an improvement for Git Client Preview.
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Please keep private repository information and credentials out of your post.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What would you like to share?
+      options:
+        - A question
+        - An idea or improvement
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Your question or idea
+      description: Tell us what you are trying to do and what would help.
+    validations:
+      required: true
